@@ -1,0 +1,233 @@
+@media (max-width:768px){
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-list{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+        font-size: 30px;
+    }
+    .header-list{
+        column-gap: 0px;
+    }
+
+    /* exercices */
+
+    .exercices-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+        text-align: center;
+    }
+    .exercices-text{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .exercices-btn{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .sector-wrapper{
+        display: none;
+    }
+    h4{
+        display: flex;
+       justify-content: center;
+    }
+    h5{
+        display: flex;
+        justify-content: center;
+    }
+    .community-text{
+        text-align: center;
+    }
+    .community-btn{
+        display: flex;
+        justify-content: center;
+        margin-left: 140px;
+    }
+    .community-title{
+        row-gap: 40px;
+    }
+    .pricing-btn{
+        margin-left: 80px;
+    }
+    .about-us{
+        column-gap: 40px;
+
+    }
+    .footer-about{
+        display: none;
+    }
+}
+
+ /* RESPONSIVE FOR MOBILE */
+
+@media (max-width:600px){
+    .container{
+        padding: 0px;
+    }
+    .header-button{
+        display: none;
+    }
+    header{
+        max-width: 600px;
+        justify-content: center;
+        padding: 0px 20px;
+    }
+    .geolab{
+        width: 50px;
+        height: 50px;
+    }
+    .burger-menu{
+        margin-left: 350px;
+    }
+    .slider{
+        display: none;
+    }
+    .exercices{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        column-gap: 37px;
+        row-gap: 20px;
+    }
+    .women{
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    .exercices-title{
+        width: 300px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        text-align: center;
+    }
+    .exercices-button{
+        display: flex;
+        justify-content: center;
+    }
+    .exercices-text{
+        max-width: 350px;
+    }
+    h1{
+        display: flex;
+       justify-content: center;
+        text-align: center;
+        width: 250px;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .exercices-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 20px;
+        background: #F24B88;
+        border-radius: 10px;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .community-title{
+       row-gap: 10px;
+    }
+    .community-card{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .community-text{
+        width: 350px;
+    }
+    .community-btn{
+        width: 60px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 10px;
+        margin-left: 0px;
+
+    }
+    .community-img,.community-img1,.community-img2{
+        width: 200px;
+        height: 150px;
+    }
+    h4{
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin: 20px 0px;
+    }
+   h5{
+    font-weight: 500;
+    font-size: 18px;
+   }
+   .pricing-title{
+    column-gap: 10px;
+   }
+   .pricing-card{
+    text-align: center;
+    width: 261px;
+    height: 310px;
+    background: #F2F2F2;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+   }
+   h6{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 0px;
+   }
+   .pricing-btn{
+    width: 68px;
+    height: 16px;
+    font-size: 10px;
+    margin-left: 100px;
+    margin-top: 10px;
+   }
+   .trainer{
+    margin-left: 0px;
+   }
+   .about-us{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 250px;
+    row-gap: 10px;
+    padding: 10px 0px;
+   }
+   .footer-info{
+    align-items: center;
+    row-gap: 5px;
+   }
+   .search{
+    width: 200px;
+    height: 26px;
+    font-size: 12px;
+   }
+   .footer-btn{
+    width: 70px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 10px;
+   }
+   .footer-image{
+    width: 50px;
+    height: 50px;
+   }
+}
